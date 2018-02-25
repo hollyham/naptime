@@ -4,6 +4,7 @@
 <head>
     <title>Naptime</title>
     <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <link rel="shortcut icon" href="stylesheets/athenahacks.png" />
 </head>
 
 <body>
@@ -12,9 +13,11 @@
     <div class="gradient-background">
         <div id="title">Naptime</div>
     </div>
-    <div class="container">
-        <button id="question-button" type="button" onclick="determineNap()">Should I take a nap?</button>
- 
+    <div class="content-container">
+        <p class="question">Did you finish all your homework?</p>
+        <button id="q1-yes" type="button" onclick="yesNap()">Yes</button>
+         
+        <button id="q1-no" type="button" onclick="noNap()">No</button>
         <p id="result"></p>
     </div>
 </div>

@@ -2,21 +2,23 @@
 <html>
 
 <head>
-    <title>Nap Time</title>
+    <title>Naptime</title>
     <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 </head>
 
 <body>
+
 <div class="container">
-    <button type="button" onclick="determineNap()">Should I take a nap?</button>
+    <div class="gradient-background">
+        <div id="title">Naptime</div>
+    </div>
+    <div class="container">
+        <button id="question-button" type="button" onclick="determineNap()">Should I take a nap?</button>
  
-    <p id="result"></p>
+        <p id="result"></p>
+    </div>
 </div>
 
-<script>
-function determineNap(){
-    document.getElementById("result").innerHTML = "Yes";
-}
-</script>
+<script src="main.js"></script>
 </body>
 </html>

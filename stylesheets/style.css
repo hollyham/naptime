@@ -1,3 +1,11 @@
+@font-face{
+    font-family:"Questrial";
+    src:url("questrial.woff2") format('woff2');
+    font-weight: 700;
+}
+body{
+    font-family: "Questrial","Helvetica",sans-serif;
+}
 .container{
     margin: auto;
     width: 60%;
@@ -5,3 +13,34 @@
     text-align: center;
 }
 
+.gradient-background{
+    padding: 25px;
+    background-color: #e1eeff;
+    background-image:
+    linear-gradient(
+      to right,
+      #ffffff,
+      #e1eeff 15%,
+      #e1eeff 85%,
+      #ffffff
+    );
+}
+
+#title{
+    color: black;
+    font-size: 50px;
+}
+button {
+    background-color: #e1eeff;
+    color: black;
+    border: none;
+    border-radius:3px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+button:focus {outline:0;}
